@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+
+    <script src="./jquery/index.js"></script>
+    <title>Home Page</title>
+   
+</head>
+
+<body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bt-light sticky-top" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="index.html">
+                <img src="./images/Asset 2.png" height="50">
+            </a>
+            <button id="menu-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <a href="./login.html"><button class="btn btn-danger" type="submit">Login</button></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" active>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+    </nav>
+    
+    <!-- Carousel aka Băng chuyền-->
+    <div id="background-carousel">
+        <div id="slides" class="carousel slide container" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/497508.jpg">
+                    <div class="carousel-caption">
+                        <h3 class="display-2 col-lg-2 col-md-4">WELCOME</h3>
+
+                        <button type="button" class="btn btn-danger btn-lg">View More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/3.png">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/4.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- jumbotron
+    col-xs(sm)-12 = gộp 12 cột thành 1(thiết bị nhỏ)
+    col-md(lg)-9 = gộp 9 cột thành 1(thiết bị TB)
+    col-xl-10: tương tụ
+
+-->
+    <!-- <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10" style="text-align: left;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cum dolorem. Atque maiores reiciendis
+                    facere
+                    accusantium, obcaecati nobis tempore dignissimos? Laborum similique itaque voluptatem quaerat
+                    accusamus
+                    pariatur fugit voluptatum sed.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#">
+                    <button class="btn btn-danger">About Us</button>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <hr class="my-4">
+    
+    <div class="container-fluid padding" id="welcome">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4"> Build your website</h2>
+            </div>
+            <hr>
+            <div class="col-12" style="text-align: left;">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, ipsam corrupti. A, placeat eius!
+                    Id nostrum debitis maxime beatae sed consequuntur vitae ut esse quo. Culpa atque eum officiis
+                    praesentium?</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="https://reactjs.org/" target="_blank"><i class="fab fa-react itag"></i></a>
+                <h3>REACT</h3>
+                <p>Build your application with React</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="https://angular.io/" target="_blank"><i class="fab fa-angular itag"></i></a>
+                <h3>ANGULAR</h3>
+                <p>Build your application with React</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><i class="fab fa-html5 itag"></i></a>
+                <h3>HTML5</h3>
+                <p>Build your application with React</p>
+            </div>
+        </div>
+    </div>
+    <!-- grid -->
+    <hr class="my-4">
+    <div class="container-fluid padding" id="grid">
+        <div class="row padding">
+            <div class="col-md-12 order-md-1 col-lg-6 order-2" style="padding-top: 15px;">
+                <header><h2>REACT</h2></header>
+                <p>React components implement a <code>render()</code> method that takes input data and returns what to
+                    display. This
+                    example uses an XML-like syntax called JSX. Input data that is passed into the component can be
+                    accessed by <code>render()</code> via <code> this.props.</code>
+
+                    JSX is optional and not required to use React. Try the Babel REPL to see the raw JavaScript code
+                    produced by the JSX compilation step.</p>
+
+            </div>
+            <div class="col-lg-6 order-md-2 order-1" style="padding: 0px;">
+                <img class="img-fluid" src="./images/5.png">
+            </div>
+
+            <div class="col-lg-6 order-md-3 order-3" style="padding: 0px; ">
+                <img class="img-fluid order-2" src="./images/7.png">
+            </div>
+            <div class="col-md-12 order-md-4 col-lg-6 order-4" style="padding-top: 15px;">
+                <header><h2>Angular</h2></header>
+                <p>Achieve the maximum speed possible on the Web Platform today, and take it further, via Web Workers and server-side rendering.
+
+                    Angular puts you in control over scalability. Meet huge data requirements by building data models on RxJS, Immutable.js or another push-model.</p>
+
+            </div>
+            <div class="col-md-12 order-md-5 col-lg-6 order-6" style="padding-top: 15px;">
+                <header><h2>React</h2></header>
+                <p>React components implement a <code>render()</code> method that takes input data and returns what to
+                    display. This
+                    example uses an XML-like syntax called JSX. Input data that is passed into the component can be
+                    accessed by <code>render()</code> via <code>this.props.</code>
+
+                    JSX is optional and not required to use React. Try the Babel REPL to see the raw JavaScript code
+                    produced by the JSX compilation step.</p>
+
+            </div>
+            <div class="col-lg-6 order-md-6 order-5" style="padding: 0px;">
+                <img class="img-fluid" src="./images/8.png">
+            </div>
+
+        </div>
+    </div>
+    <hr class="my-2">
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Meet our team</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/2.png">
+                    <div class="card-body">
+                        <h4 class="card-title">LE HA QUANG ANH</h4>
+                        <p class="card-text">Quang Anh is a bla bla bla bla</p>
+                        <button class="btn btn-danger">See Profile</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/9.png">
+                    <div class="card-body">
+                        <h4 class="card-title">LE HA QUANG ANH</h4>
+                        <p class="card-text">Quang Anh is a bla bla bla bla</p>
+                        <button class="btn btn-danger">See Profile</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/11.png">
+                    <div class="card-body">
+                        <h4 class="card-title">LE HA QUANG ANH</h4>
+                        <p class="card-text">Quang Anh is a bla bla bla bla</p>
+                        <button class="btn btn-danger">See Profile</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2 class="display-4">Contact Us</h2>
+            </div>
+            <div class="col-12 socail padding">
+                <a href="https://www.facebook.com/quang.anh.1675" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/qa._.98/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row">
+                <div style="background-color: #23262c;" id="info" class="col-md-4">
+                    <img id="img-footer" src="./images/Asset 5.png">
+                    <p> Phone: 0988659519</p>
+                    <p> Email: qquang51@gmail.com</p>
+                    <p> Hanoi University Km9 Nguyen Trai Street</p>
+                </div>
+                <div id="maps" class="col-md-8" >
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.094353812684!2d105.79431371476255!3d20.988854586020025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc7f3dca9e5%3A0x30cf5a97471f1064!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBIw6AgTuG7mWkgKEhBTlUp!5e0!3m2!1svi!2s!4v1578538054619!5m2!1svi!2s"
+                         width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

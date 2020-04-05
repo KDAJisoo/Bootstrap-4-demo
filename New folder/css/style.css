@@ -1,0 +1,142 @@
+@import url('https://fonts.google.com/specimen/Lato');
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: white;
+    background-color: #23262c;
+
+}
+.navbar{
+    background-color: #23262c !important;
+    color: white;
+    
+}
+#menu-button{
+    border-color: #23262c;
+    color: white;
+    
+}
+#background-carousel{
+    background-color: #23262c ;
+}
+.navbar li a{
+    color: white !important;
+    font-size: 18px;
+}
+.navbar li a:hover{
+    color:blueviolet !important;
+    
+}
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+
+
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color: white;
+    
+}
+
+hr{
+    color: black;
+    border-top: 2px solid;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+.fa-react{
+    color: #81d8f7;
+}
+.fa-angular{
+    color: rgb(177, 43, 55);
+}
+.fa-html5{
+    color: #d76537;
+    
+}
+.fa-react, .fa-angular, .fa-html5{
+    font-size: 4rem;
+    margin: 1rem;
+} 
+.itag:hover{
+    transform: scale(1.5);
+}
+.socail a{
+    font-size: 3em;
+    padding: 3rem;
+}
+.fa-facebook-square{
+    color: #4267B2;
+}
+.fa-facebook-square:hover{
+    transform: scale(1.5);
+}
+.fa-youtube{
+    color: #FF0000;
+}
+.fa-youtube:hover{
+    transform: scale(1.5);
+}
+.fa-instagram:hover{
+    transform: scale(1.5);
+}
+.fa-twitter:hover{
+    transform: scale(1.5);
+}
+#img-footer{
+    height: 100px;
+}
+#info{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 0;
+}
+footer{
+    background-color: #23262c !important;
+    color: white;
+}
+#maps{
+    padding-top: 30px;
+}
+#login-background{
+    background-color:#23262c !important ;
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.card-body{
+    background-color: #23262c
+}
+
+
+
+  @media (max-width: 768px){	
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1{
+		font-size: 220%;
+	}
+	.carousel-caption h3{		
+		font-size: 140%;
+		padding-bottom: 0.2rem;
+	}
+	.carousel-caption .btn{		
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+}
+
+    
